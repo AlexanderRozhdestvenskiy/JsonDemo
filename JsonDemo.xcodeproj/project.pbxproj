@@ -18,6 +18,8 @@
 		89A16F122710A76D00A5E708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A16F112710A76D00A5E708 /* Preview Assets.xcassets */; };
 		89A16F192710A87700A5E708 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F182710A87700A5E708 /* UserViewModel.swift */; };
 		89A16F1B2710A88300A5E708 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F1A2710A88300A5E708 /* User.swift */; };
+		89CC134F271B00F50065630A /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC134E271B00F50065630A /* Progress.swift */; };
+		89E8E1B0271AEECD007AAF99 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8E1AF271AEECD007AAF99 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		89A16F112710A76D00A5E708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89A16F182710A87700A5E708 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		89A16F1A2710A88300A5E708 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		89CC134E271B00F50065630A /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		89E8E1AF271AEECD007AAF99 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				8907F0522719AAC200939331 /* UserView.swift */,
 				89008E59271A063C00ECC0DF /* URLView.swift */,
 				8907F0562719B0C100939331 /* PostView.swift */,
+				89CC134E271B00F50065630A /* Progress.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -70,6 +75,7 @@
 			children = (
 				89A16F182710A87700A5E708 /* UserViewModel.swift */,
 				8907F0542719AFC200939331 /* PostViewModel.swift */,
+				89E8E1AF271AEECD007AAF99 /* WebView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				89008E5A271A063C00ECC0DF /* URLView.swift in Sources */,
+				89E8E1B0271AEECD007AAF99 /* WebView.swift in Sources */,
 				89A16F0D2710A76B00A5E708 /* ContentView.swift in Sources */,
 				8907F0552719AFC200939331 /* PostViewModel.swift in Sources */,
 				8907F0572719B0C100939331 /* PostView.swift in Sources */,
 				89A16F192710A87700A5E708 /* UserViewModel.swift in Sources */,
+				89CC134F271B00F50065630A /* Progress.swift in Sources */,
 				89A16F0B2710A76B00A5E708 /* JsonDemoApp.swift in Sources */,
 				89A16F1B2710A88300A5E708 /* User.swift in Sources */,
 				8907F04F2719A9CA00939331 /* Post.swift in Sources */,

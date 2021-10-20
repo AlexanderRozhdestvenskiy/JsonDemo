@@ -9,11 +9,10 @@ import SwiftUI
 
 struct URLView: View {
     
-    @Environment(\.openURL) var openURL
-    
     var body: some View {
-        Button("Go To Apple") {
-            openURL(URL(string: "https://www.apple.com/ru/")!)
+        NavigationView {
+            WebView(url: URL(string: "https://yandex.ru"))
+                .navigationTitle("Yandex")
         }
     }
 }
