@@ -14,7 +14,8 @@ struct ContentView: View {
     enum Section {
         case users
         case posts
-        case apple
+        case yandex
+        case canvas
     }
     
     var body: some View {
@@ -24,7 +25,9 @@ struct ContentView: View {
             PostView(viewModel: PostViewModel())
                 .tabItem { Text("Posts") }.tag(Section.posts)
             URLView()
-                .tabItem { Text("URL") }.tag(Section.apple)
+                .tabItem { Text("URL") }.tag(Section.yandex)
+            Progress()
+                .tabItem { Text("Canvas") }.tag(Section.canvas)
         }
         
     }
