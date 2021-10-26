@@ -19,6 +19,8 @@
 		89A16F192710A87700A5E708 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F182710A87700A5E708 /* UserViewModel.swift */; };
 		89A16F1B2710A88300A5E708 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A16F1A2710A88300A5E708 /* User.swift */; };
 		89CC134F271B00F50065630A /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC134E271B00F50065630A /* Progress.swift */; };
+		89E2D3732728BF4C00944345 /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89E2D3712728BF4C00944345 /* Data.xcdatamodeld */; };
+		89E2D3752728BFB700944345 /* JSON.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89E2D3742728BFB700944345 /* JSON.strings */; };
 		89E8E1B0271AEECD007AAF99 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8E1AF271AEECD007AAF99 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 		89A16F182710A87700A5E708 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		89A16F1A2710A88300A5E708 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		89CC134E271B00F50065630A /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		89E2D3722728BF4C00944345 /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		89E2D3742728BFB700944345 /* JSON.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = JSON.strings; sourceTree = "<group>"; };
 		89E8E1AF271AEECD007AAF99 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +59,8 @@
 			children = (
 				89A16F1A2710A88300A5E708 /* User.swift */,
 				8907F04E2719A9CA00939331 /* Post.swift */,
+				89E2D3742728BFB700944345 /* JSON.strings */,
+				89E2D3712728BF4C00944345 /* Data.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89A16F122710A76D00A5E708 /* Preview Assets.xcassets in Resources */,
+				89E2D3752728BFB700944345 /* JSON.strings in Resources */,
 				89A16F0F2710A76D00A5E708 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 				8907F0572719B0C100939331 /* PostView.swift in Sources */,
 				89A16F192710A87700A5E708 /* UserViewModel.swift in Sources */,
 				89CC134F271B00F50065630A /* Progress.swift in Sources */,
+				89E2D3732728BF4C00944345 /* Data.xcdatamodeld in Sources */,
 				89A16F0B2710A76B00A5E708 /* JsonDemoApp.swift in Sources */,
 				89A16F1B2710A88300A5E708 /* User.swift in Sources */,
 				8907F04F2719A9CA00939331 /* Post.swift in Sources */,
@@ -405,6 +413,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89E2D3712728BF4C00944345 /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89E2D3722728BF4C00944345 /* Data.xcdatamodel */,
+			);
+			currentVersion = 89E2D3722728BF4C00944345 /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 89A16EFF2710A76B00A5E708 /* Project object */;
 }
